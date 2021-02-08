@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <meta charset="utf=8">
+            <link rel="stylesheet" href="style/main.css">
+            <link rel="stylesheet" href="style/header.css">
+            <link rel="stylesheet" href="style/body.css">
+            <link rel="stylesheet" href="style/footer.css">
+            <script src="https://kit.fontawesome.com/4aa209d2d4.js" crossorigin="anonymous"></script>
+
+            <title>Reservia.com</title>
+        </head>
+
+        <div id="PAGE"><!--Conteneur principal / propriétées global -->
+
+            <!--La partie header est construite sur la structure suivante :-->
+                <!--Un conteneur principal "header" qui contient 3 conteneurs : Cont_header1, Cont_header2, Cont_header3.-->
+                    <!--Le conteneur "Cont_header1" contient lui meme 2 sous-conteneurs : Sous_Cont_header1, Sous_Cont_header2.-->
+                    
+                    
+            <header id="Cont_header"><!--Conteneur pére de la partie "header"-->
+       
+                <div id="Cont_header1"><!--Sous conteneur 1 de "Cont_header"-->
+          
+                    <div id="Sous_Cont_header1"><!--contient : Logo "reservia, titre, phrase de description et barre de recherche-->
+           
+                        <img id="Logo_reservia" src="images/Reservia@3x.png">
+                        <h1>Trouver votre hébergement pour des vacances de rêve</h1>
+                        <p id="description">En plein centre ville ou en pleine nature</p>
+                        <form id="recherche" action="/DB_reservia.php">
+                            <label for="localiser">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </label>
+                            <input type="search" id="localiser" name="localiser">
+                            <input type="submit">
+                        </form>
+                    </div>
+                   
+                    <div id="Sous_Cont_header2">
+            
+                        <ul id="Menu"><!-- menu haut droite-->
+                            <li class="menu">Hébergements</li>
+                            <li class="menu">Activitées</li>
+                            <li class="menu">S'inscrire</li>
+                        </ul>                
+                    </div>
+
+                </div>
+                <div id="Cont_header2"><!--Sous conteneur 2 de "Cont_header"-->
+                    <div class="filtre Filtre"></div>
+                    <div class="filtre 2"></div>
+                    <div class="filtre 3"></div>
+                    <div class="filtre 4"></div>
+                    <div class="filtre 5"></div>
+
+                </div>
+            </header>
+
+
+        </div>
+
+
+
+        
+        
+    </html>
