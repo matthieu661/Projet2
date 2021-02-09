@@ -1,10 +1,14 @@
 #Cont_header /* Conteneur pére de la partie "header"/ contient : "Cont_header1", "Cont_header1", "Cont_header1"*/ 
 {
     display: flex;
+    flex-direction: column;
     width: 100%;
     height: 30%x;
     border: 1px red solid;
 }
+/*-----------------------------cont_header1---------------------------*/
+/*-------------------------------------------------------------------*/
+/*------------------------------------------------------------------*/
 #Cont_header1 /* contient "Sous_Cont_header1" et "Sous_Cont_header2"*/
 {
     display: flex;
@@ -13,8 +17,8 @@
     border: 1px brown dashed;
     
 }
-/* ---------------------------------------------------Sous_Cont_header1---------------------*/
-#Sous_Cont_header1 /* en haut à gauche, contient : Logo "reservia, titre, phrase de description et barre de recherche */
+/* ---------------------------------------------------Sous_Cont1_header1---------------------*/
+#Sous_Cont1_header1 /* en haut à gauche, contient : Logo "reservia, titre, phrase de description et barre de recherche */
 {
     display: flex;
     flex-direction: column;
@@ -31,7 +35,7 @@
     margin-left: 5px;
     
 }
-#Sous_Cont_header1 h1
+#Sous_Cont1_header1 h1
 {
     border: 1px fuchsia dashed;
     font-size: 1.8em;
@@ -58,8 +62,8 @@
 }
 
 
-/* ---------------------------------------------------Sous_Cont_header2---------------------*/
-#Sous_Cont_header2 /* en haut à droite, contient : menu liste */
+/* ---------------------------------------------------Sous_Cont2_header1---------------------*/
+#Sous_Cont2_header1 /* en haut à droite, contient : menu liste */
 {
     width: 50%;
     height: 100%;
@@ -75,4 +79,54 @@
 {
     border: 1px greenyellow solid;
     margin: 15px;
+}
+/*-----------------------------cont_header2---------------------------*/
+/*-------------------------------------------------------------------*/
+/*------------------------------------------------------------------*/
+#Cont_header2 /* contient la partie FILTRES "*/
+{
+    display: flex;
+    width: 100%;
+    height: 20%;
+    border: 1px brown dashed; 
+        
+}
+/* ---------------------------------------------------Sous_Cont1_header2---------------------*/
+#Sous_Cont1_header2 
+{
+    border: 2px red dashed;
+    width: 10%;
+    height: 100%;
+    margin-top: auto;
+    margin-bottom: auto;
+    
+}
+/* ---------------------------------------------------Sous_Cont2_header2---------------------*/
+#Sous_Cont2_header2
+{
+    width: 60%;
+    height: 90%;
+    border: 2px red dashed;
+
+}
+.Filtre
+{
+    display: inline;
+    border: 1px greenyellow solid;
+    width: auto; 
+    height: auto;
+}
+.Filtre a:hover
+{
+    background-color: blue;
+}
+
+/*-----------------------------cont_header3---------------------------*/
+/*-------------------------------------------------------------------*/
+/*------------------------------------------------------------------*/
+#cont_header3
+{
+    border: 1px greenyellow solid;
+    height: 20%;
+    width: 100%; 
 }
