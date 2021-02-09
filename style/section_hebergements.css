@@ -20,30 +20,97 @@
 {
     display: flex;
     flex-wrap: wrap;
+    margin: 5px;
     border: 1px red solid;
     
     
 }
 .Carte_hebergement
 {
-    
-    border: 1px red solid;
-    border-radius: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-items: flex-end;
+    align-items: center;
+    border: 1px black solid;
+    border-radius: 9%;
     height: 150px;
     width: 200px;
     margin: 15px;
+    padding: 1px;
 }
 .Image_hebergement
 {
     border: 1px blue solid;
+    height: 55%;
+    width: 95%;
+    margin-top: 2px;
+}
+.a1
+{
+    
+    
+    width:  95%;
     height: 60%;
-    width: 100%;
+    background-image: url(/C:/Users/matth/Desktop/Projet2/images/cartes/cannebiere.jpg);
+    background-size: cover;
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+}
+.a2
+{
+    
+    width:  95%;
+    height: 60%;
+    background: url(/C:/Users/matth/Desktop/Projet2/images/cartes/resizeport.jpg) repeat-x;
+    background-size: cover;
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+}
+.a3
+{
+    
+    width:  95%;
+    height: 60%;
+    background: url(/C:/Users/matth/Desktop/Projet2/images/cartes/mouetteR.jpg) repeat-x;
+    background-size: cover;
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+}
+.a4
+{
+    
+    width:  95%;
+    height: 60%;
+    background: url(/C:/Users/matth/Desktop/Projet2/images/cartes/mer.jpg) repeat-x;
+    background-size: cover;
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+}
+.a5
+{
+    
+    width:  95%;
+    height: 60%;
+    background: url(/C:/Users/matth/Desktop/Projet2/images/cartes/Panier.jpg) repeat-x;
+    background-size: cover;
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+}
+.a6
+{
+    
+    width:  95%;
+    height: 60%;
+    background: url(/C:/Users/matth/Desktop/Projet2/images/cartes/amina.jpg) repeat-x;
+    background-size: cover;
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
 }
 .Notation
 {
     border: 1px blue solid;
-    height: 40%;
-    width: 100%;
+    height: 35%;
+    width: 95%;
 }
 /*-------------------------------------------ASIDE----------------------------------------*/
 #Les_plus_populaires
@@ -55,24 +122,54 @@
 #Cont1_aside
 {
     display: flex;
+    
     justify-content: space-between;
     margin: 15px;
 }
 .AsideCarte
 {
     display: flex;
+    flex-direction: row;
+    justify-content: center;
     width: 250px;
     height: 100px;
 }
 .AsideCarteImage
 {
     width: 45%;
-    height: 100%;
+    height: 95%;
 }
 .AsideCarteNotation
 {
-    width: 55%;
-    height: 100%;
+    width: 50%;
+    height: 95%;
+}
+.a7
+{
+    width: 45%;
+    height: 95%;
+    background: url(/C:/Users/matth/Desktop/Projet2/images/cartes/soleil.jpg) repeat-x;
+    background-size: cover;
+    border-top-left-radius: 10%;
+    border-bottom-left-radius: 10%;
+}
+.a8
+{
+    width: 45%;
+    height: 95%;
+    background: url(/C:/Users/matth/Desktop/Projet2/images/cartes/eau.jpg) repeat-x;
+    background-size: cover;
+    border-top-left-radius: 10%;
+    border-bottom-left-radius: 10%;
+}
+.a9
+{
+    width: 45%;
+    height: 95%;
+    background: url(/C:/Users/matth/Desktop/Projet2/images/cartes/bleu.jpg) repeat-x;
+    background-size: cover;
+    border-top-left-radius: 10%;
+    border-bottom-left-radius: 10%;
 }
 
 
