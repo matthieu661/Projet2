@@ -1,7 +1,9 @@
 #PAGE
 {
     width: auto;
+    max-width : 1500px;
     height: auto;
+    margin: auto;
    
 }
 h1
@@ -11,4 +13,14 @@ h1
 p
 {
     margin: 0;
+}
+/* Partie central "Cont_section" conteneur principal ( contient "section1" et "section2") */
+#Cont_section
+{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 60%x;
+    border: 4px blue solid;
+    margin-top: 20px;
 }

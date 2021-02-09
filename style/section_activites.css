@@ -1,0 +1,57 @@
+#Cont_section2
+{
+    border: 1px green solid;
+    width: auto;
+    height: auto;
+    margin: 15px;
+}
+#Global_section2
+{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    border: 1px rgb(30, 56, 202) solid;
+    height: 80%;
+    width: auto;
+}
+.Grande_carte
+{
+    display: flex;
+    flex-direction: column;
+    border: 1px tomato solid;
+    height: 310px;
+    width: 240px;
+}
+.type1
+{
+
+}
+.type2
+{
+    justify-content: space-between;
+}
+.Image_carteA
+{
+    border: 1px teal solid;
+    height: 80%;
+    width: 100%;
+}
+.DescriptionA
+{
+    border: 1px teal solid;
+    height: 20%;
+    width: 100%;
+}
+
+.Mini_carte1
+{
+    border: 1px blue solid;
+    height: 55%;
+    width: 100%;
+}
+.Mini_carte2
+{
+    border: 1px blue solid;
+    height: 35%;
+    width: 100%; 
+}

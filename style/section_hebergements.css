@@ -1,0 +1,78 @@
+
+/* --------------------------------------------SECTION1---------------------------------*/
+#Cont_section1
+{
+    display: flex;
+    justify-content: space-between;
+    border: 1px blue solid;
+    width: 100%;
+    height: auto;
+}
+/* --------------------------------------------SOUS SECTION1---------------------------------*/
+#Sous_cont1_section1
+{
+    border: 1px red solid;
+    width: 60%;
+    height: 100%;
+    margin: 15px;
+}
+#Carte_hebergement1
+{
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px red solid;
+    
+    
+}
+.Carte_hebergement
+{
+    
+    border: 1px red solid;
+    border-radius: 10%;
+    height: 150px;
+    width: 200px;
+    margin: 15px;
+}
+.Image_hebergement
+{
+    border: 1px blue solid;
+    height: 60%;
+    width: 100%;
+}
+.Notation
+{
+    border: 1px blue solid;
+    height: 40%;
+    width: 100%;
+}
+/*-------------------------------------------ASIDE----------------------------------------*/
+#Les_plus_populaires
+{
+    border: 2px green solid;
+    margin: 15px;
+    
+}
+#Cont1_aside
+{
+    display: flex;
+    justify-content: space-between;
+    margin: 15px;
+}
+.AsideCarte
+{
+    display: flex;
+    width: 250px;
+    height: 100px;
+}
+.AsideCarteImage
+{
+    width: 45%;
+    height: 100%;
+}
+.AsideCarteNotation
+{
+    width: 55%;
+    height: 100%;
+}
+
+
