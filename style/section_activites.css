@@ -1,27 +1,38 @@
 #Cont_section2
 {
-    border: 1px green solid;
+    /*border: 1px green solid;*/
     width: auto;
     height: auto;
     margin: 15px;
+    margin-left: 0;
 }
 #Global_section2
 {
     display: flex;
     justify-content: space-between;
     margin: 10px;
-    border: 1px rgb(30, 56, 202) solid;
+    /*border: 1px rgb(30, 56, 202) solid;*/
     height: 80%;
     width: auto;
+}
+#Cont_section2 h1
+{
+    padding: 15px;
 }
 .Grande_carte
 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    border: 1px tomato solid;
-    height: 310px;
-    width: 240px;
+    
+    height: 450px;
+    width: 310px;
+    border-radius: 15px 15px;
+    
+}
+.type1
+{
+    box-shadow: 1px 1px 0.8em #e9e9e9, -1px -1px 0.8em #e9e9e9 ;  
 }
 .type2
 {
@@ -33,15 +44,17 @@
 {
     
     
-    border: 1px teal solid;
+    
     height: 80%;
     width: 100%;
 }
 .DescriptionA
 {
-    border: 1px teal solid;
-    height: 20%;
+    
+    height: 15%;
     width: 100%;
+    padding-top: 15px;
+    padding-left: 35px;
 }
 
 .Mini_carte1
@@ -49,75 +62,80 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: blue;
-    border: 1px blue solid;
     height: 55%;
     width: 100%;
     margin: 2px;
+    border-radius: 15px 15px;
+    box-shadow: 1px 1px 0.8em #e9e9e9, -1px -1px 0.8em #e9e9e9 ;
 }
 .Mini_carte2
 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: red;
-    border: 1px blue solid;
-    height: 35%;
+    height: 40%;
     width: 100%; 
+    border-radius: 15px 15px;
+    box-shadow: 1px 1px 0.8em #e9e9e9, -1px -1px 0.8em #e9e9e9 ;
+}
+.mini
+{
+    height: 25%;
 }
 .b1
 {
-    width:  95%;
-    height: 95%;
-    background-image: url(/C:/Users/matth/Desktop/Projet2/images/cartes/cannebiere.jpg);
+    width:  100%;
+    height: 100%;
+    background-image: url(/C:/Users/matth/Desktop/Projet2/images/activites/activites1.jpg);
     background-size: cover;
-    border-top-left-radius: 10%;
-    border-top-right-radius: 10%;
+    border-top-left-radius: 15px 15px;
+    border-top-right-radius: 15px 15px;
 }
 .b2
 {
-    width:  95%;
-    height: 95%;
-    background-image: url(/C:/Users/matth/Desktop/Projet2/images/cartes/cannebiere.jpg);
+    width:  100%;
+    height: 100%;
+    background-image: url(/C:/Users/matth/Desktop/Projet2/images/activites/activites2.jpg);
     background-size: cover;
-    border-top-left-radius: 10%;
-    border-top-right-radius: 10%;
+    border-top-left-radius: 15px 15px;
+    border-top-right-radius: 15px 15px;
 }
 .b3
 {
-    width:  95%;
-    height: 95%;
-    background-image: url(/C:/Users/matth/Desktop/Projet2/images/cartes/cannebiere.jpg);
+    width:  100%;
+    height: 100%;
+    background-image: url(/C:/Users/matth/Desktop/Projet2/images/activites/activites3.jpg);
     background-size: cover;
-    border-top-left-radius: 10%;
-    border-top-right-radius: 10%;
+    border-top-left-radius: 15px 15px;
+    border-top-right-radius: 15px 15px;
 }
 .b4
 {
-    width:  95%;
-    height: 95%;
-    background-image: url(/C:/Users/matth/Desktop/Projet2/images/cartes/cannebiere.jpg);
+    width:  100%;
+    height: 100%;
+    background-image: url(/C:/Users/matth/Desktop/Projet2/images/activites/activites4.jpg);
     background-size: cover;
-    border-top-left-radius: 10%;
-    border-top-right-radius: 10%;
+    border-top-left-radius: 15px 15px;
+    border-top-right-radius: 15px 15px;
 }
 .b5
 {
-    width:  95%;
-    height: 95%;
-    background-image: url(/C:/Users/matth/Desktop/Projet2/images/cartes/cannebiere.jpg);
+    width:  100%;
+    height: 100%;
+    background-image: url(/C:/Users/matth/Desktop/Projet2/images/activites/activites5.jpg);
     background-size: cover;
-    border-top-left-radius: 10%;
-    border-top-right-radius: 10%;
+    border-top-left-radius: 15px 15px;
+    border-top-right-radius: 15px 15px;
 }
 .b6
 {
-    width:  95%;
-    height: 95%;
-    background-image: url(/C:/Users/matth/Desktop/Projet2/images/cartes/cannebiere.jpg);
+    width:  100%;
+    height: 100%;
+    background-image: url(/C:/Users/matth/Desktop/Projet2/images/activites/activites6.jpg);
     background-size: cover;
-    border-top-left-radius: 10%;
-    border-top-right-radius: 10%;
+    border-top-left-radius: 15px 15px;
+    border-top-right-radius: 15px 15px;
+    
 }
 .triche
 {
