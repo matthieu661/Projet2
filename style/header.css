@@ -94,6 +94,7 @@
 /* ---------------------------------------------------Sous_Cont1_header2---------------------*/
 #Sous_Cont1_header2 
 {
+    
     border: 2px red dashed;
     width: 10%;
     height: 100%;
@@ -104,14 +105,22 @@
 /* ---------------------------------------------------Sous_Cont2_header2---------------------*/
 #Sous_Cont2_header2
 {
+    display: flex;
+    justify-content: space-between;
     width: 60%;
     height: 90%;
     border: 2px red dashed;
 
 }
+#Sous_Cont2_header2 ul
+{
+    display: flex;
+}
 .Filtre
 {
-    display: inline;
+    
+    display: flex;
+    
     border: 1px greenyellow solid;
     width: auto; 
     height: auto;
@@ -120,6 +129,31 @@
 {
     background-color: blue;
 }
+.bulle /* fond en forme de cercle */
+{
+    
+    border-radius:50%;
+    padding: 10px;
+    margin: 5px;
+    width: 15px;
+    height: 15px;
+    border:2px solid #679403;
+}
+.Filtre1
+{
+    border: 1px black solid;
+    display: flex;
+    align-items: center;
+   
+    padding: 2px;
+    margin: 2px;
+    width: auto;
+    height: 100%;
+    font-weight:900;
+}
+
+
+    
 
 /*-----------------------------cont_header3---------------------------*/
 /*-------------------------------------------------------------------*/
