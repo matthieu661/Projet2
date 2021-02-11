@@ -1,9 +1,12 @@
+
+
 #Cont_header /* Conteneur pére de la partie "header"/ contient : "Cont_header1", "Cont_header1", "Cont_header1"*/ 
 {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     width: 100%;
+    min-width: 320px;
     height: 30%x;
     /*border: 1px red solid;*/
 }
@@ -17,7 +20,7 @@
     flex-direction: row;
     width: 100%;
     height: 30%;
-    /*border: 1px red solid;*/
+    
     
 }
 /* ---------------------------------------------------Sous_Cont1_header1---------------------*/
@@ -25,149 +28,83 @@
 {
     display: flex;
     flex-direction: column;
-    width: 55%;
+    width: auto;
+   
     padding-bottom: 5px;
-    padding-left: 10px;
+    padding-left: 5px;
     
-    /*border: 1px red solid;*/
+    
 }
 #Logo_reservia
 {
-    /*border: 1px red solid;*/
+    
     width: 110px;
     height: 50px;
-    margin-left: 0px;
-    margin-top: 10px;
-    margin-bottom: 20px;
-    
+    position: absolute;
+    top: 10px; left: 10px;
 }
+    
 #Sous_Cont1_header1 h1
 {
     /*border: 1px red solid;*/
-    font-size: 1.6em;
+    font-size: 1.5em;
     font-weight: 700;
     width: auto;
-    margin-top: 10px;
-    
-    
+    position: absolute;
+    top: 130px; left: 10px;
+    border-top: #f2f2f2bd 1px solid;
+            
 }
-#description
+#Sous_Cont1_header1 p
 {
-    /*border: 1px red solid;*/
-    width: auto;
-    margin-top: 5px;
-    
-    
+    position: absolute;
+    top: 190px; left: 10px;
 }
 
-#recherche
-{
-    /*border: 1px red solid;*/
-    display: flex;
-    width:600px;
-    height: 70px;
-    align-items: center;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    
-}
-#Boutton_bleu
-{
-    background-color: #0065fc;
-    border: #0065fc ;
-    
-    height: 60px;
-    width: 130px;
-    padding: 10px;
-    border-top-right-radius: 15px 15px;
-    border-bottom-right-radius: 15px 15px;
-    box-shadow: 1px 1px 0.3em #e9e9e9, -1px -1px 0.3em  #e9e9e9 ;
-
-}
-#text
-{
-    display: flex;
-    height: 100%;
-    width: 100%;
-    color: white;
-    align-items: center;
-    margin-bottom: 15px;
-    padding-left: 15px;
-    font-size: 1.2em;
-    
-}
-#gps
-{   
-    background-color: #f2f2f2b2;
-    
-    width: 50px;
-    height: 60px;
-    border-bottom-left-radius: 15px 15px;
-    border-top-left-radius: 15px 15px;
-    box-shadow: 1px 1px 0.3em #e9e9e9, -1px -1px 0.3em  #e9e9e9 ;
-    
-}
-.fa-map-marker-alt
-{
-    margin-top: 18px;
-    margin-left: 16px;
-    margin-right: 3px;
-    color: rgb(0, 0, 3);
-    font-size: 1.6em;
-}
-#localiser
-{
-    background-color: #ffffff;
-    border: #f2f2f2 2px solid;
-    height: 60px;
-    width: 250px;
-    box-shadow: 1px 1px 0.3em #e9e9e9, -1px -1px 0.3em  #e9e9e9 ;
-}
-::placeholder
-{
-    color: black;
-    font-weight: 600;
-    font-size: 1.3em;
-}
-
-
-/* ---------------------------------------------------Sous_Cont2_header1---------------------*/
-#Sous_Cont2_header1 /* en haut à droite, contient : menu liste */
-{
-    /*border: 1px red solid;*/
-    display: flex;
-    align-items: center;
-    width: 40%;
-    height: 50px;
-    margin-top: 10px;
-}
 #Menu
 {
-    /*border: 1px red solid;*/
-    display: flex;
-    align-items:flex-end;
-    justify-content: flex-end;
-    flex-wrap: wrap;
-    height: 100%;
-    width: 100%;
     list-style: none;
-    padding-top: 10px;
-    margin-top: 50px;
+}
+
+#smarth
+{
+    position: absolute;
+    top: 85px; left: 15px; 
+    font-size: 1.2em;
+    height: 43px;
+    width: 50%;  
+}
+#smarta
+{
+    position: absolute;
+    top: 85px; 
+    margin-left: 55%;
+    font-size: 1.2em;
+    height: 43px;
+    width: auto;
+    
     
 }
-.menu
+#smarti
 {
     
-    padding-top: 10px;
-    margin: 15px;
-    height: 50px;
-    font-size: 1.1em;
-    font-weight: 600;
-    
+    position: absolute;
+    top: 30px;
+    margin-left: 60%;
+    margin-right: 2%; 
+    font-size: 1.2em; 
 }
-.menu:hover
+#smarta:hover
 {
-    border-top: #408bfd 2px solid;
+    border-bottom: #408bfd 2px solid;
+    height: 40px;
+    color: #408bfd;
+     
+}
+#smarth:hover
+{
+    border-bottom: #408bfd 2px solid;
+    height: 40px;
     color: #408bfd;
      
 }
@@ -181,23 +118,101 @@
     font-size: 1.1em;
     font-weight: 600;
 }
-/*-----------------------------cont_header2---------------------------*/
-/*-------------------------------------------------------------------*/
-/*------------------------------------------------------------------*/
+.inscription:hover
+{
+    color: black;
+    font-size: 1.1em;
+    font-weight: 600;
+    height: 25px;
+    width: 80px;
+    border: solid #408bfd 2px;
+    border-radius: 12px 15px;
+    text-align: center;
+    
+}
+
+#recherche
+{
+    /*border: 1px red solid;*/
+    display: flex;
+    width:95%;
+    height: 70px;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    position: absolute;
+    top: 210px; left: 10px;
+
+    
+}
+#gps
+{   
+    background-color: #f2f2f2b2;
+    margin-top: 25px ;
+    width: 45px;
+    height: 45px;
+    border-bottom-left-radius: 15px 15px;
+    border-top-left-radius: 15px 15px;
+    box-shadow: 1px 1px 0.3em #e9e9e9, -1px -1px 0.3em  #e9e9e9 ;
+    
+}
+.fa-map-marker-alt
+{
+    margin-top: 8px;
+    margin-left: 16px;
+    margin-right: 3px;
+    color: rgb(0, 0, 3);
+    font-size: 1.6em;
+}
+#localiser
+{
+    background-color: #ffffff;
+    border: #f2f2f2 2px solid;
+    height: 45px;
+    width: 80%;
+    margin-top: 25px;
+    box-shadow: 1px 1px 0.3em #e9e9e9, -1px -1px 0.3em  #e9e9e9 ;
+}
+::placeholder
+{
+    color: black;
+    font-weight: 600;
+    font-size: 1.3em;
+}
+#Boutton_bleu
+{
+    background-color: #0065fc;
+    border: #0065fc ;
+    margin-top: 25px;
+    height: 45px;
+    width: 45px;
+    padding: 10px;
+    border-radius: 15px 15px;
+    box-shadow: 1px 1px 0.3em #e9e9e9, -1px -1px 0.3em  #e9e9e9 ;
+    color: rgba(255, 99, 71, 0);
+
+}
+.text
+{
+    border: tomato 2px solid;
+    height: 20px;
+    width: 20px;
+}
+
 #Cont_header2 /* contient la partie FILTRES "*/
 {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
+    
     width: 100%;
+    min-width: 320px;
     height: 20%;
     margin-top: 10px;
     margin-bottom: 20px;
-    
-    border: 1px red solid; 
+    position: absolute;
+    top: 300px; left: 10px;  
         
 }
-
-/* ---------------------------------------------------Sous_Cont1_header2---------------------*/
 #Sous_Cont1_header2 
 {
     
@@ -206,45 +221,48 @@
     flex-wrap: wrap;
     width: auto;
     height: auto;
-    margin-bottom: 15px;
-    padding: 10px; 
+    padding-bottom: 15px;
+    
 }
-#Sous_Cont1_header2 p
-{
-    font-size: 1.4em; 
-    font-weight: 900;
-}
-/* ---------------------------------------------------Sous_Cont2_header2---------------------*/
+
 #Sous_Cont2_header2
 {
+    
     display: flex;
+
     justify-content: flex-start;
+    flex-direction: row;
     flex-wrap: wrap;
     width: auto;
-    height: 90%;
+    height: auto;
+    margin-left: 0;
+    padding-left: 0;
     /*border: 1px red solid;*/
 
 }
 #Sous_Cont2_header2 ul
 {
     display: flex;
-    width: auto;
+    
+    width: 100%;
 }
 .Filtre
 {
-    /*border: 1px red solid;*/
+    
     display: flex;
-    width: auto; 
+    width: auto;
+    min-width: 320px; 
     height: auto;
-    padding: 10px;
+    
 }
 .Filtre1 a:hover
 {
     background-color: #deebff49;
     height: 20px;
     width: 30px;
-    padding-left: 20px;
-    padding-top: 30px;
+    padding-left: 2px;
+    padding-top: 3px;
+    
 }
 .bulle /* fond en forme de cercle */
 {
@@ -274,25 +292,26 @@
     
     padding: 0;
     padding-left: -10px;
-    margin-left: 30px;
+    margin-left: 10px;
     
     
     width: auto;
-    height: 100%;
+    height: 50px;
     font-weight:900;
+    font-size: 1.4em;
 }
 .bulle2
 {
     padding-left: 2px;
     padding-right: 5px;
-    font-size: 1.3em;
+    font-size: 0.9em;
     width: auto;
     height: auto;
 }
 .fa-dog, .fa-heart, .fa-child, .fa-money-bill-wave
 {
     color: #0065fc;
-    font-size: 1.6em;
+    font-size: 0.9em;
     align-items: center;
     
 }
@@ -313,20 +332,17 @@
 
 
 
-    
 
-/*-----------------------------cont_header3---------------------------*/
-/*-------------------------------------------------------------------*/
-/*------------------------------------------------------------------*/
 #cont_header3
 {
     display: flex;
     align-items: center;
     /*border: 1px red solid;*/
-    height: 20%;
+    height: auto;
     width: 100%;
     padding: 5px;
-    margin-bottom: 15px; 
+    position: absolute;
+    top: 530px; left: 10px; 
     
 }
 #cont_header3 p
@@ -335,7 +351,8 @@
     /*border: 1px red solid;*/
     height: 15%;
     width: auto;
-    margin-left: 8px;    
+    margin-right: 10px;
+       
 }
 .fa-info-circle
 {

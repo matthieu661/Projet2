@@ -1,0 +1,36 @@
+footer
+{
+    background-color: #f2f2f2b2;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 100%;
+    height: auto;
+    margin-top: 25px; 
+    position: absolute;
+    top: 4170px; left: 0px;
+    
+}
+.Liste_footer
+{
+    list-style: none;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    
+    
+}
+.Titre_liste
+{
+    align-content: center;
+    margin-left: 10px;
+    
+}
+.c1
+{
+    padding-left: 0;   
+}
+.pied
+{
+    font-size: 1.2em;
+    margin: 10px;
+}

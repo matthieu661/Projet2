@@ -2,11 +2,20 @@
     <html>
         <head>
             <meta charset="utf=8">
-            <link rel="stylesheet" href="style/main.css">
-            <link rel="stylesheet" href="style/header.css">
-            <link rel="stylesheet" href="style/section_hebergements.css">
-            <link rel="stylesheet" href="style/section_activites.css">
-            <link rel="stylesheet" href="style/footer.css">
+            <!-- écrans > 1400px-->
+            <link rel="stylesheet" media="screen and (min-width: 1400px)" href="style/main.css">
+            <link rel="stylesheet" media="screen and (min-width: 1400px)" href="style/header.css">
+            <link rel="stylesheet" media="screen and (min-width: 1400px)" href="style/section_hebergements.css">
+            <link rel="stylesheet" media="screen and (min-width: 1400px)" href="style/section_activites.css">
+            <link rel="stylesheet" media="screen and (min-width: 1400px)" href="style/footer.css">
+           
+            <!-- Smartphone < 500px-->
+            <link rel="stylesheet" media="screen and (max-width: 500px)" href="style/Smartphone/main_smarthpone.css">
+            <link rel="stylesheet" media="screen and (max-width: 500px)" href="style/Smartphone/header_smartphone.css">
+            <link rel="stylesheet" media="screen and (max-width: 500px)" href="style/Smartphone/footer_smartphone.css">
+            <link rel="stylesheet" media="screen and (max-width: 500px)" href="style/Smartphone/section_acti_smartphone.css">
+            <link rel="stylesheet" media="screen and (max-width: 500px)" href="style/Smartphone/section_heber_smartphone.css">
+            
             <script src="https://kit.fontawesome.com/4aa209d2d4.js" crossorigin="anonymous"></script>
             <link rel="preconnect" href="https://fonts.gstatic.com">
             <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@410&display=swap" rel="stylesheet">
@@ -43,9 +52,9 @@
                    
                         <div id="Sous_Cont2_header1">
                             <ul id="Menu"><!-- menu haut droite-->
-                                <li class="menu"><a class="counter" href="#linkH">Hébergements</a></li>
-                                <li class="menu"><a class="counter" href="#LinkA">Activitées</a></li>
-                                <li class="menu"><a class="counter inscription" href="#">S'inscrire</a></li>
+                                <li class="menu"><a id="smarth" class="counter" href="#linkH">Hébergements</a></li>
+                                <li class="menu"><a id="smarta" class="counter" href="#LinkA">Activitées</a></li>
+                                <li class="menu"><a id="smarti" class="counter inscription" href="#">S'inscrire</a></li>
                             </ul>                
                         </div>
 
@@ -61,9 +70,8 @@
                             </div>
                             <div class="Filtre1"><a href="#">
                                 <div class="bulle"><i class="fas fa-child"></i></div>
-                                <div class="bulle2">Familiale</a></div>
-                            </div>
-                                
+                                <div class="bulle2">Familial</a></div>
+                            </div>      
                             <div class="Filtre1"><a href="#">
                                 <div class="bulle"><i class="fas fa-heart"></i></div> 
                                 <div class="bulle2">Romantique</a></div>
@@ -88,7 +96,7 @@
                 <!--Le conteneur "section" "Cont_section1" (section_hebergement.css)-->
                 <!--Le conteneur "aside" "Les_plus_populaires" (section_hebergement.css)-->
 
-                <div id="Cont_section"><!-- englobe section hebergement et activitées (main.css)-->
+               <div id="Cont_section"><!-- englobe section hebergement et activitées (main.css)-->
                     <section id="Cont_section1"><!------(section_hebergement.css)-->
                         <div id="Sous_cont1_section1">
                             <h1 id="linkH">Hébergements à Marseille</h1>
@@ -289,7 +297,7 @@
                         </ul>
                     </div>
 
-                </footer>
+                </footer>  
             </body>
 
         </div>
