@@ -1,0 +1,35 @@
+#PAGE
+{
+   
+    /* corp de page */
+    width: auto;
+    max-width : 900px;
+    height: auto;
+    margin: auto;
+    margin-top: 40px;
+
+    /*Global font*/
+    font-family: 'Raleway', sans-serif;
+    font-size: 0.9em;
+    letter-spacing: 1px;
+    
+
+}
+a:link 
+{ 
+ text-decoration:none; 
+} 
+h1
+{
+    margin: 0;
+}
+h3
+{
+    margin: 0;
+}
+p
+{
+    margin: 0;
+    font-size: 1.1em;
+    font-weight: 500;
+}
