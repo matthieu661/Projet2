@@ -51,14 +51,14 @@
     font-weight: 700;
     width: auto;
     position: absolute;
-    top: 130px; left: 10px;
+    top: 140px; left: 10px;
     border-top: #f2f2f2bd 1px solid;
             
 }
 #Sous_Cont1_header1 p
 {
     position: absolute;
-    top: 190px; left: 10px;
+    top: 200px; left: 10px;
 }
 
 #Menu
@@ -169,7 +169,7 @@
     background-color: #ffffff;
     border: #f2f2f2 2px solid;
     height: 45px;
-    width: 80%;
+    width: 83%;
     margin-top: 25px;
     box-shadow: 1px 1px 0.3em #e9e9e9, -1px -1px 0.3em  #e9e9e9 ;
 }
@@ -190,6 +190,8 @@
     border-radius: 15px 15px;
     box-shadow: 1px 1px 0.3em #e9e9e9, -1px -1px 0.3em  #e9e9e9 ;
     color: rgba(255, 99, 71, 0);
+    padding-left: -10px;
+    margin-left: -10px;
 
 }
 .text
@@ -206,7 +208,7 @@
     
     width: 100%;
     min-width: 320px;
-    height: 20%;
+    height: 22%;
     margin-top: 10px;
     margin-bottom: 20px;
     position: absolute;
@@ -216,10 +218,10 @@
 #Sous_Cont1_header2 
 {
     
-    /*border: 1px red solid;*/
+    
     justify-content: flex-start;
     flex-wrap: wrap;
-    width: auto;
+    width: 85%;
     height: auto;
     padding-bottom: 15px;
     
@@ -229,12 +231,12 @@
 {
     
     display: flex;
-
+    
     justify-content: flex-start;
     flex-direction: row;
     flex-wrap: wrap;
-    width: auto;
-    height: auto;
+    width: 75%;
+    height: 400px;
     margin-left: 0;
     padding-left: 0;
     /*border: 1px red solid;*/
@@ -342,7 +344,7 @@
     width: 100%;
     padding: 5px;
     position: absolute;
-    top: 530px; left: 10px; 
+    top: 540px; left: 10px; 
     
 }
 #cont_header3 p
