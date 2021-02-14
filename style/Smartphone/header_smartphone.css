@@ -51,7 +51,7 @@
     font-weight: 700;
     width: auto;
     position: absolute;
-    top: 140px; left: 10px;
+    top: 130px; left: 10px;
     border-top: #f2f2f2bd 1px solid;
             
 }
@@ -90,7 +90,7 @@
     
     position: absolute;
     top: 30px;
-    margin-left: 60%;
+    margin-left: 55%;
     margin-right: 2%; 
     font-size: 1.2em; 
 }
