@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <meta charset="utf=8">
+            <!-- écrans > 1400px-->
+            <link rel="stylesheet" media="screen and (min-width: 1400px)" href="style/main.css">
+            <link rel="stylesheet" media="screen and (min-width: 1400px)" href="style/header.css">
+            <link rel="stylesheet" media="screen and (min-width: 1400px)" href="style/section_hebergements.css">
+            <link rel="stylesheet" media="screen and (min-width: 1400px)" href="style/section_activites.css">
+            <link rel="stylesheet" media="screen and (min-width: 1400px)" href="style/footer.css">
+
+            <!-- écrans >900px-1399px< -->
+            <link rel="stylesheet" media="screen and (min-width: 901px) and (max-width: 1399px)" href="style/Desktop900px_1400px/Main_900_1400px.css">
+            <link rel="stylesheet" media="screen and (min-width: 901px) and (max-width: 1399px)" href="style/Desktop900px_1400px/Header_900_1400px.css">
+            <link rel="stylesheet" media="screen and (min-width: 901px) and (max-width: 1399px)" href="style/Desktop900px_1400px/hebergement_900_1400px.css">
+            <link rel="stylesheet" media="screen and (min-width: 901px) and (max-width: 1399px)" href="style/Desktop900px_1400px/Activites_900_1400px.css">
+            <link rel="stylesheet" media="screen and (min-width: 901px) and (max-width: 1399px)" href="style/Desktop900px_1400px/footer_900_1400px.css">
+
+            <!-- tablette >501px-899px<-->
+            <link rel="stylesheet" media="screen and (min-width: 591px) and (max-width: 900px)" href="style/tablette501px_900px/main_tablette.css">
+            <link rel="stylesheet" media="screen and (min-width: 591px) and (max-width: 900px)" href="style/tablette501px_900px/header_tablette.css">
+            <link rel="stylesheet" media="screen and (min-width: 591px) and (max-width: 900px)" href="style/tablette501px_900px/hebergement_tablette.css">
+            <link rel="stylesheet" media="screen and (min-width: 591px) and (max-width: 900px)" href="style/tablette501px_900px/activites_tablette.css">
+            <link rel="stylesheet" media="screen and (min-width: 591px) and (max-width: 900px)" href="style/tablette501px_900px/footer_tablette.css">
+     
+            <!-- Smartphone < 500px-->
+            <link rel="stylesheet" media="screen and (max-width: 590px) and (min-width: 250px)" href="style/Smartphone/main_smarthpone.css">
+            <link rel="stylesheet" media="screen and (max-width: 590px) and (min-width: 250px)" href="style/Smartphone/header_smartphone.css">
+            <link rel="stylesheet" media="screen and (max-width: 590px) and (min-width: 250px)" href="style/Smartphone/footer_smartphone.css">
+            <link rel="stylesheet" media="screen and (max-width: 590px) and (min-width: 250px)" href="style/Smartphone/section_acti_smartphone.css">
+            <link rel="stylesheet" media="screen and (max-width: 590px) and (min-width: 250px)" href="style/Smartphone/section_heber_smartphone.css">
+            
+            <script src="https://kit.fontawesome.com/4aa209d2d4.js" crossorigin="anonymous"></script>
+            <link rel="preconnect" href="https://fonts.gstatic.com">
+            <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@410&display=swap" rel="stylesheet">
+            <title>Reservia.com</title>
+        </head>
+
+        <div id="PAGE"><!--Conteneur principal / propriétées global "main.css"-->
+
+<!------------------------------------------------Header------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------>
+            <body>
+            <!--La partie header est construite sur la structure suivante (header.css):-->
+                <!--Un conteneur principal "header"(id = count_header) qui contient 3 conteneurs "div" : Cont_header1, Cont_header2, Cont_header3.-->
+                    <!--Le conteneur "div" "Cont_header1" contient lui meme 2 sous-conteneurs : Sous_Cont1_header1, Sous_Cont2_header1.-->
+                    <!--Le conteneur "div" "Cont_header2" contient lui meme 2 sous-conteneurs : Sous_Cont1_header2, Sous_Cont2_header2.-->
+                    
+                <header id="Cont_header"><!--Conteneur pére de la partie "header"-->
+<!------------------------------------------------------------------------------------------------------------------>       
+                    <div id="Cont_header1"><!--Sous conteneur 1 de "Cont_header"-->
+          
+                        <div id="Sous_Cont1_header1"><!--contient : Logo "reservia, titre, phrase de description et barre de recherche-->
+           
+                            <img id="Logo_reservia" src="images/Reservia@3x.png">
+                            <h1>Trouver votre hébergement pour des vacances de rêve</h1>
+                            <p id="description">En plein centre ville ou en pleine nature</p>
+                            <form id="recherche" action="/DB_reservia.php">
+                                <label for="localiser">
+                                    <div id="gps"><i class="fas fa-map-marker-alt"></i></div>
+                                </label>
+                                <input type="search" id="localiser" name="localiser" placeholder="     Marseille, France">
+                                <button id="Boutton_bleu"><span id="text">Rechercher</span></button>
+                            </form>
+                        </div>
+                   
+                        <nav id="Sous_Cont2_header1">
+                            <ul id="Menu"><!-- menu haut droite-->
+                                <li class="menu"><a id="smarth" class="counter" href="#linkH">Hébergements</a></li>
+                                <li class="menu"><a id="smarta" class="counter" href="#LinkA">Activitées</a></li>
+                                <li class="menu"><a id="smarti" class="counter inscription" href="#">S'inscrire</a></li>
+                            </ul>                
+                        </nav>
+
+                    </div>
+<!------------------------------------------------------------------------------------------------------------------>
+                    <div id="Cont_header2"><!--Sous conteneur 2 de "Cont_header"-->
+                    <!--Filtres avec "a:hover" / icons "font awesome" /" liste" -->
+                        <div id="Sous_Cont1_header2"><p>Filtres</p></div>
+                        <div id="Sous_Cont2_header2">
+                            <div class="Filtre1"><a href="#">
+                                <div class="bulle"><i class="fas fa-money-bill-wave"></i></div>
+                                <div class="bulle2">Economique</a></div>
+                            </div>
+                            <div class="Filtre1"><a href="#">
+                                <div class="bulle"><i class="fas fa-child"></i></div>
+                                <div class="bulle2">Familial</a></div>
+                            </div>      
+                            <div class="Filtre1"><a href="#">
+                                <div class="bulle"><i class="fas fa-heart"></i></div> 
+                                <div class="bulle2">Romantique</a></div>
+                            </div>
+                            <div class="Filtre1"><a href="#">
+                                <div class="bulle"><i class="fas fa-dog"></i></div> 
+                                <div class="bulle2">Animaux autorisés</a></div>
+                            </div>
+                    
+                        </div>  
+                    
+                    </div>
+                    <div id="cont_header3">
+                        <p><i class="fas fa-info-circle"></i></p>
+                        <p>Plus de 500 logements sont disponibles dans cette ville</p>
+                    </div>
+                </header>
+<!------------------------------------------------Sections---------------------------------------------------------->
+<!------------------------------------------------------------------------------------------------------------------>
+            <!--La partie central de la page est contruite sur la structure suivante (main.css) :-->
+                <!--Un conteneur principal " Cont_section"  sui contient 2 sous-conteneurs-->
+                <!--Le conteneur "section" "Cont_section1" (section_hebergement.css)-->
+                <!--Le conteneur "aside" "Les_plus_populaires" (section_hebergement.css)-->
+
+               <div id="Cont_section"><!-- englobe section hebergement et activitées (main.css)-->
+                    <section id="Cont_section1"><!------(section_hebergement.css)-->
+                        <div id="Sous_cont1_section1">
+                            <h1 id="linkH">Hébergements à Marseille</h1>
+                            <div id="Carte_hebergement1">
+
+                                <a href="#">
+                                    <div class="Carte_hebergement"><!-- carte standard, conteneur"carte_hebergement" repeté 5x--> <!--1 carte hebergement contient 2 conteneurs-->
+                                        <div class="Image_hebergement a1"></div>                                                       <!--2 contient elements-->
+                                        <div class="Notation">                                                                      <!--2 contient elements-->   
+                                            <h3>Auberge la cannebiére</h3>
+                                            <p>Nuit à partir de 25€</p>
+                                            <p><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i></p>
+                                        </div>
+                                    </div>
+                                </a>
+                            
+                            
+                                <a href="#">
+                                    <div class="Carte_hebergement">
+                                        <div class="Image_hebergement a2"></div>
+                                        <div class="Notation">
+                                            <h3>Hôtel du port</h3>
+                                            <p>Nuit à partir de 52€</p>
+                                            <p><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></p>
+                                        </div>
+                                    </div>
+                                </a>
+                            
+                            
+                                <a href="#">
+                                    <div class="Carte_hebergement">
+                                    <div class="Image_hebergement a3"></div>
+                                        <div class="Notation">
+                                            <h3>Hôtel les mouettes</h3>
+                                            <p>Nuit à partir de 76€</p>
+                                            <p><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i></p>
+                                        </div>
+                                    </div>
+                                </a>
+
+                                <a href="#">
+                                    <div class="Carte_hebergement">
+                                    <div class="Image_hebergement a4"></div>
+                                        <div class="Notation">
+                                            <h3>Hôtel de la mer</h3>
+                                            <p>Nuit à partir de 46€</p>
+                                            <p><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i></p>
+                                        </div>
+                                    </div>
+                                </a>
+
+                                <a href="#">
+                                    <div class="Carte_hebergement">
+                                        <div class="Image_hebergement a5"></div>
+                                        <div class="Notation">
+                                            <h3>Auberge Le Panier</h3>
+                                            <p>Nuit à partir de 23€</p>
+                                            <p><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i></p>
+                                        </div>
+                                    </div>
+                                </a>
+
+                                <a href="#">
+                                    <div class="Carte_hebergement">
+                                    <div class="Image_hebergement a6"></div>
+                                        <div class="Notation">
+                                            <h3>Hôtel chez Amina</h3>
+                                            <p>Nuit à partir de 96€</p>
+                                            <p><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></p>
+                                        </div>
+                                    </div>
+                                </a>
+
+                            </div>
+                            <a href="#"><p id="troll">Afficher plus</p></a>
+
+                        </div>
+
+                        <aside id="Les_plus_populaires"><!------(section_hebergement.css)-->
+                            <div id="Cont1_aside">
+                                <h1 id="troll2">Les plus populaires </h1>
+                                <div id="chart"><i class="fas fa-chart-line fa-2x"></i></div>
+                            </div>
+                            <div id="Cont2_aside">
+                                <a href="#">
+                                    <div class="Carte_hebergement AsideCarte">
+                                        <div class="Image_hebergement AsideCarteImage a7"></div>
+                                        <div class="Notation AsideCarteNotation">
+                                            <h3>Hôtel Le soleil du matin</h3>
+                                            <p>Nuit à partir de 128€</p>
+                                            <p><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></p>
+                                        </div>
+                                    </div>
+                                </a>
+                                <a href="#">
+                                    <div class="Carte_hebergement AsideCarte">
+                                        <div class="Image_hebergement AsideCarteImage a8"></div>
+                                        <div class="Notation AsideCarteNotation">
+                                            <h3>Au coeur de l'eau<br/>Chambre d'hôtes</h3>
+                                            <p>Nuit à partir de 71€</p>
+                                            <p><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i></p>
+                                        </div>
+                                    </div>
+                                </a>
+                                <a href="#">
+                                        <div class="Carte_hebergement AsideCarte">
+                                        <div class="Image_hebergement AsideCarteImage a9"></div>
+                                        <div class="Notation AsideCarteNotation">
+                                            <h3>Hôtel Tout bleu et blanc</h3>
+                                            <p>Nuit à partir de 68€</p>
+                                            <p><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i></p>
+                                        </div>
+                                    </div>
+                                </a>
+
+                            </div>
+                            
+                        </aside>
+
+                    </section>
+                    <section id="Cont_section2"><!------(section_activites.css)-->
+                        <h1 id="LinkA">Activités à Marseille</h1>
+                        <div id="Global_section2">
+                            <a href="#"><div class="Grande_carte type1">
+                                <div class="Image_carteA b1"></div>
+                                <div class="DescriptionA">
+                                    <h3>Vieux Port</h3>
+                                </div>
+                            </div></a>
+                            <div class="Grande_carte type2">   
+                                <div class="Mini_carte1">
+                                    <div class="Image_carteA b2">
+                                        <a href="#"><div class="triche"></div></a>
+                                    </div>
+                                    <div class="DescriptionA">
+                                        <a href="#"><h3>Fort de Pomégues</h3></a>
+                                    </div>
+                                </div>
+                                <div class="Mini_carte2">
+                                    <div class="Image_carteA b3">
+                                        <a href="#"><div class="triche"></div></a>
+                                    </div>
+                                    <div class="DescriptionA mini">
+                                        <a href="#"><h3>Îles du Frioul</h3></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <a href="#"><div class="Grande_carte type1">
+                                <div class="Image_carteA b4"></div>
+                                <div class="DescriptionA">
+                                    <h3>Parc National des Calanques</h3>
+                                </div>
+                            </div></a>
+                            <div class="Grande_carte type2">
+                                <div class="Mini_carte1">
+                                    <div class="Image_carteA b5">
+                                        <a href="#"><div class="triche"></div></a>
+                                    </div>
+                                    <div class="DescriptionA">
+                                        <a href="#"><h3>Notre-Dame-de-la-Garde</h3></a>
+                                    </div>
+                                </div>
+                                <div class="Mini_carte2">
+                                    <div class="Image_carteA b6">
+                                        <a href="#"><div class="triche"></div></a>
+                                    </div>
+                                    <div class="DescriptionA mini">
+                                        <a href="#"><h3>Parc Longchamp</h3></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>  
+<!------------------------------------------------------------------------------------------------------------------>                
+<!------------------------------------------------Footer------------------------------------------------------------>
+                <footer><!------------(footer.css)------------->
+                    <div class="Titre_liste c1">
+                        <h5 class="pied">A propos</h5>
+                        <ul class="Liste_footer">
+                            <a href="#"><li>Fonctionnement du site</li></a>
+                            <a href="#"><li>Condidtion générals de vente</li></a>
+                            <a href="#"><li>Données et confidentialité</li></a>
+                        </ul>
+                    </div>
+                    <div class="Titre_liste c2">
+                        <h5 class="pied">Nos hebergements</h5>
+                        <ul class="Liste_footer">
+                            <li>Charte qualité</li>
+                            <li>Soumettre votre hôtel</li>   
+                        </ul>
+                    </div>
+                    <div class="Titre_liste c3">
+                        <h5 class="pied">Assistance</h5>
+                        <ul class="Liste_footer">
+                            <li>Centre d'aide</li>
+                            <li>Nous contacter</li>
+                        </ul>
+                    </div>
+
+                </footer>  
+            </body>
+
+        </div>
+
+
+
+        
+        
+    </html>
